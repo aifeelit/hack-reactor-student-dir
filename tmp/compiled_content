@@ -1,450 +1,160 @@
-{:	data{I"/:ET{:default{	:	lastI"Š%<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>A Brand New nanoc Site - </title>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc 3.4.2"> 
-  </head>
-  <body>
-    <div id="main">
-      <table id="dir-table">
-	<tr id="head-tr">
-		<th>pic</th>
-		<th>name</th>
-		<th>email</th>
-		<th>site</th>
-		<th>blog</th>
-		<th>github</th>
-		<th>linkedin</th>
-		<th>latest tweet</th>
-		<th>personal blurb</th>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Adnan Wahab</td>
-		<td id="email-td"><a href="mailto:mail@adnanwahab.com">mail@adnanwahab.com</a></td>
-		<td id="site-td"><a href="http://adnanwahab.com">adnanwahab.com</a></td>
-		<td id="blog-td"><a href="http://adnanwahab.com">adnanwahab.com</a></td>
-		<td id="github-td"><a href="https://github.com/adnan-wahab">adnan-wahab</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Albert Lee</td>
-		<td id="email-td"><a href="mailto:Monsterblader@gmail.com">Monsterblader@gmail.com</a></td>
-		<td id="site-td"><a href="http://monsterblader.github.com">monsterblader.github.com</a></td>
-		<td id="blog-td"><a href="http://monsterblader.github.com">monsterblader.github.com</a></td>
-		<td id="github-td"><a href="https://github.com/monsterblader">Monsterblader</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Carey Winslow</td>
-		<td id="email-td"><a href="mailto:winslowcj5@gmail.com">winslowcj5@gmail.com</a></td>
-		<td id="site-td"><a href="http://apps.youcanlearn.it">apps.youcanlearn.it</a></td>
-		<td id="blog-td"><a href="http://youcanlearn.it">youcanlearn.it</a></td>
-		<td id="github-td"><a href="https://github.com/whoaa512">Whoaa512</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Chris Bobek</td>
-		<td id="email-td"><a href="mailto:chrisbobek@gmail.com">chrisbobek@gmail.com</a></td>
-		<td id="site-td"><a href="http://www.chrisbobek.com">chrisbobek.com</a></td>
-		<td id="blog-td"><a href="http://disillusionized.tumblr.com/">disillusionized.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/chrisbobek">chrisbobek</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Christen Thompson</td>
-		<td id="email-td"><a href="mailto:chickenfur@gmail.com">chickenfur@gmail.com</a></td>
-		<td id="site-td"><a href="http://whitepinedev.com/">whitepinedev.com</a></td>
-		<td id="blog-td"><a href="http://whitepinedev.tumblr.com/">whitepinedev.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/chickenfur">chickenfur</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Henry Zhu</td>
-		<td id="email-td"><a href="mailto:hz@therealhenry.com">hz@therealhenry.com</a></td>
-		<td id="site-td"><a href="http://therealhenry.com">therealhenry.com</a></td>
-		<td id="blog-td"><a href="http://therealhenry.com">therealhenry.com</a></td>
-		<td id="github-td"><a href="https://github.com/hzhu">hzhu</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">JP Whitaker</td>
-		<td id="email-td"><a href="mailto:jpw@hawaii.edu">jpw@hawaii.edu</a></td>
-		<td id="site-td"><a href="http://www.johnpatrickwhitaker.com/">johnpatrickwhitaker.com</a></td>
-		<td id="blog-td"><a href="http://www.johnpatrickwhitaker.com/">johnpatrickwhitaker.com</a></td>
-		<td id="github-td"><a href="https://github.com/jpwhitaker">jpwhitaker</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">June Jung</td>
-		<td id="email-td"><a href="mailto:june@jueunjung.com">june@jueunjung.com</a></td>
-		<td id="site-td"><a href="http://jueunjung.com/">jueunjung.com</a></td>
-		<td id="blog-td"><a href="http://6d11h.tumblr.com/">6d11h.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/junejung">junejung</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Kristie Gock</td>
-		<td id="email-td"><a href="mailto:ginkris@gmail.com">ginkris@gmail.com</a></td>
-		<td id="site-td"><a href="http://www.kristigock.com/">kristigock.com</a></td>
-		<td id="blog-td"><a href="http://kristigock.tumblr.com/">kristigock.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/yougithub">yougithub</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Mark Chathkan</td>
-		<td id="email-td"><a href="mailto:mark@markchathkan.com">mark@markchathkan.com</a></td>
-		<td id="site-td"><a href="http://markchathkan.com">markchathkan.com</a></td>
-		<td id="blog-td"><a href="http://markchathkan.com">markchathkan.com</a></td>
-		<td id="github-td"><a href="https://github.com/sate">Sate</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Mark Reveley</td>
-		<td id="email-td"><a href="mailto:mreveley@gmail.com">mreveley@gmail.com</a></td>
-		<td id="site-td"><a href="http://mrev.github.com/">mrev.github.com</a></td>
-		<td id="blog-td"><a href="http://mrev.github.com/">mrev.github.com</a></td>
-		<td id="github-td"><a href="https://github.com/mrev">mrev</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Mark Rossetti</td>
-		<td id="email-td"><a href="mailto:mark.a.rossetti@gmail.com">mark.a.rossetti@gmail.com</a></td>
-		<td id="site-td"><a href="http://www.markarossetti.com/">markarossetti.com</a></td>
-		<td id="blog-td"><a href="http://www.markarossetti.com/blog">markarossetti.com/blog</a></td>
-		<td id="github-td"><a href="https://github.com/rossetti211">rossetti211</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Megan Tulac</td>
-		<td id="email-td"><a href="mailto:megantulac@gmail.com">megantulac@gmail.com</a></td>
-		<td id="site-td">:needed</td>
-		<td id="blog-td">:needed</td>
-		<td id="github-td"><a href="https://github.com/mtulac">mtulac</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Nathan Houle</td>
-		<td id="email-td"><a href="mailto:ndhoule@gmail.com">ndhoule@gmail.com</a></td>
-		<td id="site-td"><a href="http://nathanhoule.com">nathanhoule.com</a></td>
-		<td id="blog-td"><a href="http://blog.nathanhoule.com">blog.nathanhoule.com</a></td>
-		<td id="github-td"><a href="https://github.com/ndhoule">ndhoule</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Paul Bacchus</td>
-		<td id="email-td"><a href="mailto:paulsbacchus@gmail.com">paulsbacchus@gmail.com</a></td>
-		<td id="site-td"><a href="http://paulbacchus.com/">paulbacchus.com</a></td>
-		<td id="blog-td"><a href="http://paulbacchus.com/blog">paulbacchus.com/blog</a></td>
-		<td id="github-td"><a href="https://github.com/psb">psb</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Sherah Smith</td>
-		<td id="email-td"><a href="mailto:sherah@sherahsmith.com">sherah@sherahsmith.com</a></td>
-		<td id="site-td"><a href="http://sherahsmith.com">sherahsmith.com</a></td>
-		<td id="blog-td"><a href="http://tech.sherahsmith.com">tech.sherahsmith.com</a></td>
-		<td id="github-td"><a href="https://github.com/sherah">sherah</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Tim Schiller</td>
-		<td id="email-td"><a href="mailto:timothy.schiller@gmail.com">timothy.schiller@gmail.com</a></td>
-		<td id="site-td"><a href="http://timmyschiller.com">timmyschiller.com</a></td>
-		<td id="blog-td"><a href="http://timmyschiller.com">timmyschiller.com</a></td>
-		<td id="github-td"><a href="https://github.com/tmschl">tmschl</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
+{:	data{I"/:ET{:default{:	lastI"×/
+<table class="mainDir">
+  <thead>
+    <tr>
+      <th style="text-align: left">Student</th>
+      <th style="text-align: center">Email</th>
+      <th style="text-align: center">Site</th>
+      <th style="text-align: center">Blog</th>
+      <th style="text-align: center">Github</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Adnan Wahab</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#105;&#108;&#064;&#097;&#100;&#110;&#097;&#110;&#119;&#097;&#104;&#097;&#098;&#046;&#099;&#111;&#109;">&#109;&#097;&#105;&#108;&#064;&#097;&#100;&#110;&#097;&#110;&#119;&#097;&#104;&#097;&#098;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://adnanwahab.com">adnanwahab.com</a></td>
+      <td style="text-align: center"><a href="http://adnanwahab.com">adnanwahab.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/adnan-wahab">adnan-wahab</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Albert Lee</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#077;&#111;&#110;&#115;&#116;&#101;&#114;&#098;&#108;&#097;&#100;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#077;&#111;&#110;&#115;&#116;&#101;&#114;&#098;&#108;&#097;&#100;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://monsterblader.github.com">monsterblader.github.com</a></td>
+      <td style="text-align: center"><a href="http://monsterblader.github.com">monsterblader.github.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/monsterblader">Monsterblader</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Carey Winslow</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#119;&#105;&#110;&#115;&#108;&#111;&#119;&#099;&#106;&#053;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#119;&#105;&#110;&#115;&#108;&#111;&#119;&#099;&#106;&#053;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://apps.youcanlearn.it">apps.youcanlearn.it</a></td>
+      <td style="text-align: center"><a href="http://youcanlearn.it">youcanlearn.it</a></td>
+      <td style="text-align: center"><a href="http://github.com/whoaa512">Whoaa512</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Chris Bobek</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#104;&#114;&#105;&#115;&#098;&#111;&#098;&#101;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#099;&#104;&#114;&#105;&#115;&#098;&#111;&#098;&#101;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://chrisbobek.com">chrisbobek.com</a></td>
+      <td style="text-align: center"><a href="http://disillusionized.tumblr.com">disillusionized.tumblr.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/chrisbobek">chrisbobek</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Christen Thompson</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#104;&#105;&#099;&#107;&#101;&#110;&#102;&#117;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#099;&#104;&#105;&#099;&#107;&#101;&#110;&#102;&#117;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://whitepinedev.com">whitepinedev.com</a></td>
+      <td style="text-align: center"><a href="http://whitepinedev.tumblr.com">whitepinedev.tumblr.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/chickenfur">chickenfur</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Henry Zhu</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#122;&#064;&#116;&#104;&#101;&#114;&#101;&#097;&#108;&#104;&#101;&#110;&#114;&#121;&#046;&#099;&#111;&#109;">&#104;&#122;&#064;&#116;&#104;&#101;&#114;&#101;&#097;&#108;&#104;&#101;&#110;&#114;&#121;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://therealhenry.com">therealhenry.com</a></td>
+      <td style="text-align: center"><a href="http://therealhenry.com">therealhenry.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/hzhu">hzhu</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">JP Whitaker</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#106;&#112;&#119;&#064;&#104;&#097;&#119;&#097;&#105;&#105;&#046;&#101;&#100;&#117;">&#106;&#112;&#119;&#064;&#104;&#097;&#119;&#097;&#105;&#105;&#046;&#101;&#100;&#117;</a></td>
+      <td style="text-align: center"><a href="http://johnpatrickwhitaker.com">johnpatrickwhitaker.com</a></td>
+      <td style="text-align: center"><a href="http://www.johnpatrickwhitaker.com">johnpatrickwhitaker.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/jpwhitaker">jpwhitaker</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">June Jung</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#106;&#117;&#110;&#101;&#064;&#106;&#117;&#101;&#117;&#110;&#106;&#117;&#110;&#103;&#046;&#099;&#111;&#109;">&#106;&#117;&#110;&#101;&#064;&#106;&#117;&#101;&#117;&#110;&#106;&#117;&#110;&#103;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://jueunjung.com">jueunjung.com</a></td>
+      <td style="text-align: center"><a href="http://6d11h.tumblr.com">6d11h.tumblr.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/junejung">junejung</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Kristie Gock</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#103;&#105;&#110;&#107;&#114;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#103;&#105;&#110;&#107;&#114;&#105;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://kristigock.com">kristigock.com</a></td>
+      <td style="text-align: center"><a href="http://kristigock.tumblr.com">kristigock.tumblr.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/yougithub">yougithub</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Mark Chathkan</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#114;&#107;&#064;&#109;&#097;&#114;&#107;&#099;&#104;&#097;&#116;&#104;&#107;&#097;&#110;&#046;&#099;&#111;&#109;">&#109;&#097;&#114;&#107;&#064;&#109;&#097;&#114;&#107;&#099;&#104;&#097;&#116;&#104;&#107;&#097;&#110;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://markchathkan.com">markchathkan.com</a></td>
+      <td style="text-align: center"><a href="http://markchathkan.com">markchathkan.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/sate">Sate</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Mark Reveley</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#114;&#101;&#118;&#101;&#108;&#101;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#114;&#101;&#118;&#101;&#108;&#101;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://mrev.github.com">mrev.github.com</a></td>
+      <td style="text-align: center"><a href="http://mrev.github.com">mrev.github.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/mrev">mrev</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Mark Rossetti</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#114;&#107;&#046;&#097;&#046;&#114;&#111;&#115;&#115;&#101;&#116;&#116;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#097;&#114;&#107;&#046;&#097;&#046;&#114;&#111;&#115;&#115;&#101;&#116;&#116;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://markarossetti.com">markarossetti.com</a></td>
+      <td style="text-align: center"><a href="http://www.markarossetti.com/blog">markarossetti.com/blog</a></td>
+      <td style="text-align: center"><a href="http://github.com/rossetti211">rossetti211</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Megan Tulac</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#101;&#103;&#097;&#110;&#116;&#117;&#108;&#097;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#101;&#103;&#097;&#110;&#116;&#117;&#108;&#097;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://mtulac.github.com">mtulac.github.com</a></td>
+      <td style="text-align: center"><a href="http://megantulac.tumblr.com">megantulac.tumblr.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/mtulac">mtulac</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Nathan Houle</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#100;&#104;&#111;&#117;&#108;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#110;&#100;&#104;&#111;&#117;&#108;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://nathanhoule.com">nathanhoule.com</a></td>
+      <td style="text-align: center"><a href="http://blog.nathanhoule.com">blog.nathanhoule.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/ndhoule">ndhoule</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Paul Bacchus</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#097;&#117;&#108;&#115;&#098;&#097;&#099;&#099;&#104;&#117;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#112;&#097;&#117;&#108;&#115;&#098;&#097;&#099;&#099;&#104;&#117;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://paulbacchus.com">paulbacchus.com</a></td>
+      <td style="text-align: center"><a href="http://paulbacchus.com/blog">paulbacchus.com/blog</a></td>
+      <td style="text-align: center"><a href="http://github.com/psb">psb</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Sherah Smith</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#104;&#101;&#114;&#097;&#104;&#064;&#115;&#104;&#101;&#114;&#097;&#104;&#115;&#109;&#105;&#116;&#104;&#046;&#099;&#111;&#109;">&#115;&#104;&#101;&#114;&#097;&#104;&#064;&#115;&#104;&#101;&#114;&#097;&#104;&#115;&#109;&#105;&#116;&#104;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://sherahsmith.com">sherahsmith.com</a></td>
+      <td style="text-align: center"><a href="http://tech.sherahsmith.com">tech.sherahsmith.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/sherah">sherah</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Tim Schiller</td>
+      <td style="text-align: center"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#116;&#105;&#109;&#111;&#116;&#104;&#121;&#046;&#115;&#099;&#104;&#105;&#108;&#108;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#116;&#105;&#109;&#111;&#116;&#104;&#121;&#046;&#115;&#099;&#104;&#105;&#108;&#108;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></td>
+      <td style="text-align: center"><a href="http://timmyschiller.com">timmyschiller.com</a></td>
+      <td style="text-align: center"><a href="http://timmyschiller.com">timmyschiller.com</a></td>
+      <td style="text-align: center"><a href="http://github.com/tmschl">tmschl</a></td>
+    </tr>
+  </tbody>
 </table>
-    </div>
-    <!-- <div id="sidebar">
-      <h2>Documentation</h2>
-      <ul>
-        <li><a href="http://nanoc.stoneship.org/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.stoneship.org/docs/3-getting-started/">Getting Started</a></li>
-      </ul>
-      <h2>Community</h2>
-      <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
-        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
-        <li><a href="http://projects.stoneship.org/trac/nanoc/">Wiki</a></li>
-      </ul>
-    </div> -->
-  </body>
-</html>
-;T:rawI"âtable(#dir-table).
-(#head-tr).|_. pic|_. name|_. email|_. site|_. blog|_. github|_. linkedin|_. latest tweet|_. personal blurb|
-|(#pic-td).|(#name-td).Adnan Wahab|(#email-td)."mail@adnanwahab.com":mailto:mail@adnanwahab.com|(#site-td)."adnanwahab.com":http://adnanwahab.com|(#blog-td)."adnanwahab.com":http://adnanwahab.com|(#github-td)."adnan-wahab":https://github.com/adnan-wahab|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Albert Lee|(#email-td)."Monsterblader@gmail.com":mailto:Monsterblader@gmail.com|(#site-td)."monsterblader.github.com":http://monsterblader.github.com|(#blog-td)."monsterblader.github.com":http://monsterblader.github.com|(#github-td)."Monsterblader":https://github.com/monsterblader|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Carey Winslow|(#email-td)."winslowcj5@gmail.com":mailto:winslowcj5@gmail.com|(#site-td)."apps.youcanlearn.it":http://apps.youcanlearn.it|(#blog-td)."youcanlearn.it":http://youcanlearn.it|(#github-td)."Whoaa512":https://github.com/whoaa512|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Chris Bobek|(#email-td)."chrisbobek@gmail.com":mailto:chrisbobek@gmail.com|(#site-td)."chrisbobek.com":http://www.chrisbobek.com|(#blog-td)."disillusionized.tumblr.com":http://disillusionized.tumblr.com/|(#github-td)."chrisbobek":https://github.com/chrisbobek|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Christen Thompson|(#email-td)."chickenfur@gmail.com":mailto:chickenfur@gmail.com|(#site-td)."whitepinedev.com":http://whitepinedev.com/|(#blog-td)."whitepinedev.tumblr.com":http://whitepinedev.tumblr.com/|(#github-td)."chickenfur":https://github.com/chickenfur|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Henry Zhu|(#email-td)."hz@therealhenry.com":mailto:hz@therealhenry.com|(#site-td)."therealhenry.com":http://therealhenry.com|(#blog-td)."therealhenry.com":http://therealhenry.com|(#github-td)."hzhu":https://github.com/hzhu|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).JP Whitaker|(#email-td)."jpw@hawaii.edu":mailto:jpw@hawaii.edu|(#site-td)."johnpatrickwhitaker.com":http://www.johnpatrickwhitaker.com/|(#blog-td)."johnpatrickwhitaker.com":http://www.johnpatrickwhitaker.com/|(#github-td)."jpwhitaker":https://github.com/jpwhitaker|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).June Jung|(#email-td)."june@jueunjung.com":mailto:june@jueunjung.com|(#site-td)."jueunjung.com":http://jueunjung.com/|(#blog-td)."6d11h.tumblr.com":http://6d11h.tumblr.com/|(#github-td)."junejung":https://github.com/junejung|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Kristie Gock|(#email-td)."ginkris@gmail.com":mailto:ginkris@gmail.com|(#site-td)."kristigock.com":http://www.kristigock.com/|(#blog-td)."kristigock.tumblr.com":http://kristigock.tumblr.com/|(#github-td)."yougithub":https://github.com/yougithub|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Mark Chathkan|(#email-td)."mark@markchathkan.com":mailto:mark@markchathkan.com|(#site-td)."markchathkan.com":http://markchathkan.com|(#blog-td)."markchathkan.com":http://markchathkan.com|(#github-td)."Sate":https://github.com/sate|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Mark Reveley|(#email-td)."mreveley@gmail.com":mailto:mreveley@gmail.com|(#site-td)."mrev.github.com":http://mrev.github.com/|(#blog-td)."mrev.github.com":http://mrev.github.com/|(#github-td)."mrev":https://github.com/mrev|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Mark Rossetti|(#email-td)."mark.a.rossetti@gmail.com":mailto:mark.a.rossetti@gmail.com|(#site-td)."markarossetti.com":http://www.markarossetti.com/|(#blog-td)."markarossetti.com/blog":http://www.markarossetti.com/blog|(#github-td)."rossetti211":https://github.com/rossetti211|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Megan Tulac|(#email-td)."megantulac@gmail.com":mailto:megantulac@gmail.com|(#site-td).:needed|(#blog-td).:needed|(#github-td)."mtulac":https://github.com/mtulac|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Nathan Houle|(#email-td)."ndhoule@gmail.com":mailto:ndhoule@gmail.com|(#site-td)."nathanhoule.com":http://nathanhoule.com|(#blog-td)."blog.nathanhoule.com":http://blog.nathanhoule.com|(#github-td)."ndhoule":https://github.com/ndhoule|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Paul Bacchus|(#email-td)."paulsbacchus@gmail.com":mailto:paulsbacchus@gmail.com|(#site-td)."paulbacchus.com":http://paulbacchus.com/|(#blog-td)."paulbacchus.com/blog":http://paulbacchus.com/blog|(#github-td)."psb":https://github.com/psb|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Sherah Smith|(#email-td)."sherah@sherahsmith.com":mailto:sherah@sherahsmith.com|(#site-td)."sherahsmith.com":http://sherahsmith.com|(#blog-td)."tech.sherahsmith.com":http://tech.sherahsmith.com|(#github-td)."sherah":https://github.com/sherah|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|
-|(#pic-td).|(#name-td).Tim Schiller|(#email-td)."timothy.schiller@gmail.com":mailto:timothy.schiller@gmail.com|(#site-td)."timmyschiller.com":http://timmyschiller.com|(#blog-td)."timmyschiller.com":http://timmyschiller.com|(#github-td)."tmschl":https://github.com/tmschl|(#linkedin-td).|(#latest-tweet-td).|(#personal-blurb-td).|;T:preI"Ü!<table id="dir-table">
-	<tr id="head-tr">
-		<th>pic</th>
-		<th>name</th>
-		<th>email</th>
-		<th>site</th>
-		<th>blog</th>
-		<th>github</th>
-		<th>linkedin</th>
-		<th>latest tweet</th>
-		<th>personal blurb</th>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Adnan Wahab</td>
-		<td id="email-td"><a href="mailto:mail@adnanwahab.com">mail@adnanwahab.com</a></td>
-		<td id="site-td"><a href="http://adnanwahab.com">adnanwahab.com</a></td>
-		<td id="blog-td"><a href="http://adnanwahab.com">adnanwahab.com</a></td>
-		<td id="github-td"><a href="https://github.com/adnan-wahab">adnan-wahab</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Albert Lee</td>
-		<td id="email-td"><a href="mailto:Monsterblader@gmail.com">Monsterblader@gmail.com</a></td>
-		<td id="site-td"><a href="http://monsterblader.github.com">monsterblader.github.com</a></td>
-		<td id="blog-td"><a href="http://monsterblader.github.com">monsterblader.github.com</a></td>
-		<td id="github-td"><a href="https://github.com/monsterblader">Monsterblader</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Carey Winslow</td>
-		<td id="email-td"><a href="mailto:winslowcj5@gmail.com">winslowcj5@gmail.com</a></td>
-		<td id="site-td"><a href="http://apps.youcanlearn.it">apps.youcanlearn.it</a></td>
-		<td id="blog-td"><a href="http://youcanlearn.it">youcanlearn.it</a></td>
-		<td id="github-td"><a href="https://github.com/whoaa512">Whoaa512</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Chris Bobek</td>
-		<td id="email-td"><a href="mailto:chrisbobek@gmail.com">chrisbobek@gmail.com</a></td>
-		<td id="site-td"><a href="http://www.chrisbobek.com">chrisbobek.com</a></td>
-		<td id="blog-td"><a href="http://disillusionized.tumblr.com/">disillusionized.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/chrisbobek">chrisbobek</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Christen Thompson</td>
-		<td id="email-td"><a href="mailto:chickenfur@gmail.com">chickenfur@gmail.com</a></td>
-		<td id="site-td"><a href="http://whitepinedev.com/">whitepinedev.com</a></td>
-		<td id="blog-td"><a href="http://whitepinedev.tumblr.com/">whitepinedev.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/chickenfur">chickenfur</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Henry Zhu</td>
-		<td id="email-td"><a href="mailto:hz@therealhenry.com">hz@therealhenry.com</a></td>
-		<td id="site-td"><a href="http://therealhenry.com">therealhenry.com</a></td>
-		<td id="blog-td"><a href="http://therealhenry.com">therealhenry.com</a></td>
-		<td id="github-td"><a href="https://github.com/hzhu">hzhu</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">JP Whitaker</td>
-		<td id="email-td"><a href="mailto:jpw@hawaii.edu">jpw@hawaii.edu</a></td>
-		<td id="site-td"><a href="http://www.johnpatrickwhitaker.com/">johnpatrickwhitaker.com</a></td>
-		<td id="blog-td"><a href="http://www.johnpatrickwhitaker.com/">johnpatrickwhitaker.com</a></td>
-		<td id="github-td"><a href="https://github.com/jpwhitaker">jpwhitaker</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">June Jung</td>
-		<td id="email-td"><a href="mailto:june@jueunjung.com">june@jueunjung.com</a></td>
-		<td id="site-td"><a href="http://jueunjung.com/">jueunjung.com</a></td>
-		<td id="blog-td"><a href="http://6d11h.tumblr.com/">6d11h.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/junejung">junejung</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Kristie Gock</td>
-		<td id="email-td"><a href="mailto:ginkris@gmail.com">ginkris@gmail.com</a></td>
-		<td id="site-td"><a href="http://www.kristigock.com/">kristigock.com</a></td>
-		<td id="blog-td"><a href="http://kristigock.tumblr.com/">kristigock.tumblr.com</a></td>
-		<td id="github-td"><a href="https://github.com/yougithub">yougithub</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Mark Chathkan</td>
-		<td id="email-td"><a href="mailto:mark@markchathkan.com">mark@markchathkan.com</a></td>
-		<td id="site-td"><a href="http://markchathkan.com">markchathkan.com</a></td>
-		<td id="blog-td"><a href="http://markchathkan.com">markchathkan.com</a></td>
-		<td id="github-td"><a href="https://github.com/sate">Sate</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Mark Reveley</td>
-		<td id="email-td"><a href="mailto:mreveley@gmail.com">mreveley@gmail.com</a></td>
-		<td id="site-td"><a href="http://mrev.github.com/">mrev.github.com</a></td>
-		<td id="blog-td"><a href="http://mrev.github.com/">mrev.github.com</a></td>
-		<td id="github-td"><a href="https://github.com/mrev">mrev</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Mark Rossetti</td>
-		<td id="email-td"><a href="mailto:mark.a.rossetti@gmail.com">mark.a.rossetti@gmail.com</a></td>
-		<td id="site-td"><a href="http://www.markarossetti.com/">markarossetti.com</a></td>
-		<td id="blog-td"><a href="http://www.markarossetti.com/blog">markarossetti.com/blog</a></td>
-		<td id="github-td"><a href="https://github.com/rossetti211">rossetti211</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Megan Tulac</td>
-		<td id="email-td"><a href="mailto:megantulac@gmail.com">megantulac@gmail.com</a></td>
-		<td id="site-td">:needed</td>
-		<td id="blog-td">:needed</td>
-		<td id="github-td"><a href="https://github.com/mtulac">mtulac</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Nathan Houle</td>
-		<td id="email-td"><a href="mailto:ndhoule@gmail.com">ndhoule@gmail.com</a></td>
-		<td id="site-td"><a href="http://nathanhoule.com">nathanhoule.com</a></td>
-		<td id="blog-td"><a href="http://blog.nathanhoule.com">blog.nathanhoule.com</a></td>
-		<td id="github-td"><a href="https://github.com/ndhoule">ndhoule</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Paul Bacchus</td>
-		<td id="email-td"><a href="mailto:paulsbacchus@gmail.com">paulsbacchus@gmail.com</a></td>
-		<td id="site-td"><a href="http://paulbacchus.com/">paulbacchus.com</a></td>
-		<td id="blog-td"><a href="http://paulbacchus.com/blog">paulbacchus.com/blog</a></td>
-		<td id="github-td"><a href="https://github.com/psb">psb</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Sherah Smith</td>
-		<td id="email-td"><a href="mailto:sherah@sherahsmith.com">sherah@sherahsmith.com</a></td>
-		<td id="site-td"><a href="http://sherahsmith.com">sherahsmith.com</a></td>
-		<td id="blog-td"><a href="http://tech.sherahsmith.com">tech.sherahsmith.com</a></td>
-		<td id="github-td"><a href="https://github.com/sherah">sherah</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-	<tr>
-		<td id="pic-td"></td>
-		<td id="name-td">Tim Schiller</td>
-		<td id="email-td"><a href="mailto:timothy.schiller@gmail.com">timothy.schiller@gmail.com</a></td>
-		<td id="site-td"><a href="http://timmyschiller.com">timmyschiller.com</a></td>
-		<td id="blog-td"><a href="http://timmyschiller.com">timmyschiller.com</a></td>
-		<td id="github-td"><a href="https://github.com/tmschl">tmschl</a></td>
-		<td id="linkedin-td"></td>
-		<td id="latest-tweet-td"></td>
-		<td id="personal-blurb-td"></td>
-	</tr>
-</table>;T:	post@
-I"/stylesheet/;T{;{;I"k* {
+;T:rawI"œ
+|---
+| Student         |  Email                      | Site                                                      |   Blog                                                        | Github  |
+|:-               |   :-:                       |   :-:                                                     |   :-:                                                         |   :-:   |
+|Adnan Wahab      |<mail@adnanwahab.com>        |[adnanwahab.com](http://adnanwahab.com)                    |[adnanwahab.com](http://adnanwahab.com)                        |[adnan-wahab](http://github.com/adnan-wahab)|
+|Albert Lee       |<Monsterblader@gmail.com>    |[monsterblader.github.com](http://monsterblader.github.com)|[monsterblader.github.com](http://monsterblader.github.com)    |[Monsterblader](http://github.com/monsterblader)|
+|Carey Winslow    |<winslowcj5@gmail.com>       |[apps.youcanlearn.it](http://apps.youcanlearn.it)          |[youcanlearn.it](http://youcanlearn.it)                        |[Whoaa512](http://github.com/whoaa512)|
+|Chris Bobek      |<chrisbobek@gmail.com>       |[chrisbobek.com](http://chrisbobek.com)                    |[disillusionized.tumblr.com](http://disillusionized.tumblr.com)|[chrisbobek](http://github.com/chrisbobek)|
+|Christen Thompson|<chickenfur@gmail.com>       |[whitepinedev.com](http://whitepinedev.com)                |[whitepinedev.tumblr.com](http://whitepinedev.tumblr.com)      |[chickenfur](http://github.com/chickenfur)|
+|Henry Zhu        |<hz@therealhenry.com>        |[therealhenry.com](http://therealhenry.com)                |[therealhenry.com](http://therealhenry.com)                    |[hzhu](http://github.com/hzhu)|
+|JP Whitaker      |<jpw@hawaii.edu>             |[johnpatrickwhitaker.com](http://johnpatrickwhitaker.com)  |[johnpatrickwhitaker.com](http://www.johnpatrickwhitaker.com)  |[jpwhitaker](http://github.com/jpwhitaker)|
+|June Jung        |<june@jueunjung.com>         |[jueunjung.com](http://jueunjung.com)                      |[6d11h.tumblr.com](http://6d11h.tumblr.com)                    |[junejung](http://github.com/junejung)|
+|Kristie Gock     |<ginkris@gmail.com>          |[kristigock.com](http://kristigock.com)                    |[kristigock.tumblr.com](http://kristigock.tumblr.com)          |[yougithub](http://github.com/yougithub)|
+|Mark Chathkan    |<mark@markchathkan.com>      |[markchathkan.com](http://markchathkan.com)                |[markchathkan.com](http://markchathkan.com)                    |[Sate](http://github.com/sate)|
+|Mark Reveley     |<mreveley@gmail.com>         |[mrev.github.com](http://mrev.github.com)                  |[mrev.github.com](http://mrev.github.com)                      |[mrev](http://github.com/mrev)|
+|Mark Rossetti    |<mark.a.rossetti@gmail.com>  |[markarossetti.com](http://markarossetti.com)              |[markarossetti.com/blog](http://www.markarossetti.com/blog)    |[rossetti211](http://github.com/rossetti211)|
+|Megan Tulac      |<megantulac@gmail.com>       |[mtulac.github.com](http://mtulac.github.com)              |[megantulac.tumblr.com](http://megantulac.tumblr.com)          |[mtulac](http://github.com/mtulac)|
+|Nathan Houle     |<ndhoule@gmail.com>          |[nathanhoule.com](http://nathanhoule.com)                  |[blog.nathanhoule.com](http://blog.nathanhoule.com)            |[ndhoule](http://github.com/ndhoule)|
+|Paul Bacchus     |<paulsbacchus@gmail.com>     |[paulbacchus.com](http://paulbacchus.com)                  |[paulbacchus.com/blog](http://paulbacchus.com/blog)            |[psb](http://github.com/psb)|
+|Sherah Smith     |<sherah@sherahsmith.com>     |[sherahsmith.com](http://sherahsmith.com)                  |[tech.sherahsmith.com](http://tech.sherahsmith.com)            |[sherah](http://github.com/sherah)|
+|Tim Schiller     |<timothy.schiller@gmail.com> |[timmyschiller.com](http://timmyschiller.com)              |[timmyschiller.com](http://timmyschiller.com)                  |[tmschl](http://github.com/tmschl)|
+{: .mainDir}
+;T:pre@
+I"/stylesheet/;T{;{;I"ð* {
   margin: 0;
   padding: 0;
 
@@ -507,18 +217,6 @@ a:hover {
   list-style-type: square;
 }
 
-#main tr th {
-  border-bottom: 1.5px solid gray;
-}
-
-#dir-table {
-  
-}
-
-#head-tr {
-  /*border-bottom: 1px solid gray; */
-}
-
 #name-td {
   min-width: 140px;
   padding-right: 20px;
@@ -574,5 +272,5 @@ a:hover {
 
   line-height: 20px;
 }
-;T;	@;
-@:versioni
+;T;	@;
+@:versioni
