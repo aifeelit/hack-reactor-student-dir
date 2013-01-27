@@ -1,6 +1,10 @@
 {
   "packages": {
     "jade-handlebars": {},
-    "normalize.css": {}
+    "normalize.css": {},
+    "router": {},
+    "form2js-jquery": {},
+    "jquery-validate": {},
+    "form2js": {}
   }
 }

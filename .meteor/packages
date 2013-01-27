@@ -7,7 +7,9 @@ autopublish
 insecure
 preserve-inputs
 coffeescript
-madewith
 bootstrap
-jade-handlebars
 normalize.css
+router
+form2js-jquery
+jquery-validate
+form2js

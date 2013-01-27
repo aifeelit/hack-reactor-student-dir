@@ -1,0 +1,43 @@
+<head>
+  <title>Catalyst directory</title>
+</head>
+
+<body>
+  <div><a href="/new" class='btn'>New Student</a></div>
+  <br />
+  <div class='container'>
+    {{renderPage}}
+  </div>
+</body>
+
+
+<template name='new_student'>
+  <form>
+    <label>
+      <input type='text' data-name='name'> Name
+    </label>
+    <label>
+      <input type='text' data-name='email'> Email
+    </label>
+    <label>
+      <input type='text' data-name='blog'> Blog
+    </label>
+    <label>
+      <input type='text' data-name='site'> Site
+    </label>
+    <label>
+      <input type='text' data-name='github'> Github
+    </label>
+    <label>
+      <input type='text' data-name='twitter'> Twitter
+    </label>
+    <label>
+      <input type='text' data-name='facebook'> Facebook
+    </label>
+    <label>
+      <input type='text' data-name='linkedIn'> LinkedIn
+    </label>
+    <input class='btn' type='submit' value='submit'>
+  </form>
+</template>
+
