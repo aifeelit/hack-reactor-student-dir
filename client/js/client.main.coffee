@@ -15,5 +15,3 @@ Template.new_student.events
         formData[i.getAttribute('data-name')] = i.value
     Meteor.call 'queue_new', formData
     Meteor.Router.to '/'
-    # make call to save to DB
-    # Meteor.call 'save_student'
