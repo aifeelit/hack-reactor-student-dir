@@ -3,8 +3,11 @@ catalyst-student-dir
 
 Catalyst Class Students Directory
 
-Simple directory of all students from inaugural [Catalyst Class](http://catalystclass.com).
+Source code for [Catalyst Class](http://catalystclass.com) student directory.
 
-Made by a [student](https://github.com/Whoaa512), as an experiment in using Textile([RedCloth](http://redcloth.org)) compiled to static html pages with [nanoc](http://nanoc.stoneship.org).
+Made by a [student](https://github.com/Whoaa512) using [Meteor](http://meteor.com)
 
-Updated: No longer using Textile, switched to Markdown via [kramdown](http://kramdown.rubyforge.org), still using nanoc for compilation.
+
+Originally written using Textile([RedCloth](http://redcloth.org)) & Markdown([kramdown](http://kramdown.rubyforge.org)) then compiled to static html pages with [nanoc](http://nanoc.stoneship.org).
+
+Original version with commits can be found in previous [branches](https://github.com/Whoaa512/catalyst-student-dir/branches).
