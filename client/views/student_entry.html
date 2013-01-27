@@ -1,0 +1,12 @@
+<template name='student_entry'>
+  {{#each student}}
+    <tr>
+      <td>{{name}}</td>
+      <td>{{email}}</td>
+      {{#each online_presence}}
+        <td><a href="{{url}}">{{plain}}</a></td>
+      {{/each}}
+    </tr>
+  {{/each}}
+</template>
+

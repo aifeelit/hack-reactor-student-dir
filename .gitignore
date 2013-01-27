@@ -1,2 +1,4 @@
 tmp/
+test.jade
 crash.log
+.DS_Store
