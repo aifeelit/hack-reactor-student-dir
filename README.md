@@ -3,7 +3,7 @@ catalyst-student-dir
 
 Hack Reactor Student Directory
 
-Source code for [Hack Reactor](http://hackreactor.com/) student directory.
+Source code for [Hack Reactor](http://hackreactor.com/)(Formerly Catalyst) student directory.
 
 Made by a [student](https://github.com/Whoaa512) using [Meteor](http://meteor.com)
 
