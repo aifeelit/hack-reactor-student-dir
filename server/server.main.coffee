@@ -1,4 +1,7 @@
 Meteor.startup( ->
+  if Students.find().count() is 0
+    for student in NOV_STUDENTS
+      Students.insert student
 )
 
 Meteor.methods
