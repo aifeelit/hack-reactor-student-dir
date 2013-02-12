@@ -1,4 +1,6 @@
 tmp/
+buffer.*
+nov_students.js
 test.jade
 crash.log
 .DS_Store
